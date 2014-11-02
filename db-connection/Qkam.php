@@ -1,7 +1,6 @@
 <?php
 header("content-type: application/json");
 
-$con = mysqli_connect('localhost','dubizzle_QkamAD','kokowawa@123','dubizzle_Qkam');
 // Check connection
 if (mysqli_connect_errno())
 {
