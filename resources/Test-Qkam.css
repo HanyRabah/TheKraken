@@ -1,0 +1,28 @@
+.Qkam-counter{ padding:10px; background: #fff;  min-height: 100px; width: 95px; position: fixed; top: 90px; left: 0px;z-index: 100000000; direction: ltr; transition: all ease 0.3s;}
+.Qkam-counter .agentName { font-weight: bold; text-align: center; background: #42BB9A; margin: -10px; padding: 20px 10px; color:#fff; }
+.Qkam-counter.goBtn{top: 460px}
+.Qkam-counter .Approved{ color: #18A25E;text-align: center;border-bottom: 1px dotted #999;}
+.Qkam-counter .Deleted{color:#E75628;text-align: center;border-bottom: 1px dotted #999;}
+.Qkam-counter .MovedtoWow{color:#DDAF31;text-align: center;border-bottom: 1px dotted #999;}
+.Qkam-counter .MovedQuality{color:#AA7BCB;text-align: center;}
+#clearBtn,#saveBtn{width: 100%}
+#approvedNum,#deletedNum,#movedWowNum,#movedQualityNum{display: block; }
+
+.notifcations{position: fixed;
+left: 50%;
+margin-left: -100px;
+top: 10px;
+}
+.notifcations .success,.notifcations .error{ display: none; padding: 10px 10px 10px 50px;}
+.notifcations .success .close, .notifcations .error .close{
+position: absolute;
+left: 8px;
+top: 9px;
+color: #FFF;
+background: #DDAF31;
+padding: 6px;
+border-radius: 55px;
+font-family: sans-serif;
+line-height: 7px;
+font-size: 12px;
+cursor: pointer;}

@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'mogaz1';
+    src: url('../font/mogaz1.eot');
+    src: url('../font/mogaz1.eot') format('embedded-opentype'),
+    url('../font/mogaz1.woff') format('woff'),
+    url('../font/mogaz1.ttf') format('truetype'),
+    url('../font/mogaz1.svg#mogaz1') format('svg');
+}
+
+@font-face {
+    font-family: 'mogaz2';
+    src: url('../font/mogaz2.eot');
+    src: url('../font/mogaz2.eot') format('embedded-opentype'),
+    url('../font/mogaz2.woff') format('woff'),
+    url('../font/mogaz2.ttf') format('truetype'),
+    url('../font/mogaz2.svg#mogaz2') format('svg');
+}
+
+*{font-family: mogaz2;}
+h1, h2, h3, h4, h5, h6{font-family: mogaz1 !important;}
+ .nav-pills > li { float: right !important; margin: 0px 0px 5px 5px !important;}
+
+.text-align-right{text-align: right; padding: 0px;}
+
+.panel-body .list-group{min-height: 42px; margin: 0px; padding: 0px;}
+
+#sortable0{min-height: 42px; padding: 5px; border: dashed 2px #ddd; border-radius: 5px;}
+#sortable0 .list-group-item{border:0px; padding: 0px; margin: 0px;}
+
+.panel-body li{display: block; min-height: 42px; background: #fff;}
+
+.panel-body{padding: 5px;}
+
+
+label.has-error{margin-top: 5px; color: red;}
+.navbar-brand{padding-right: 0px; margin-right: 0px;}
+.all-cat{margin: 0px; padding: 0px;}
+.all-cat li{padding: 0px;}
+.footer .container{border-top: solid 1px #eee; margin-top: 40px; padding-top: 40px; margin-bottom: 40px;}
